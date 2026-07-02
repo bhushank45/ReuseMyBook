@@ -10,16 +10,16 @@ nav div{
     padding: 10px;
     background-color: black;
 }
+nav ul{
+    display: flex;
+    padding: 5px;
+    gap: 60PX;
+}
 nav a{
     text-decoration: none;
     font-size: 18px;
     color: rgba(242, 235, 235, 0.947);
     font-weight: bold;
-}
-nav ul{
-    display: flex;
-    padding: 5px;
-    gap: 60PX;
 }
 nav a:hover{
     color: rgb(19, 227, 15);
@@ -31,4 +31,27 @@ nav a.active{
     color: rgb(19, 227, 15);
     border-bottom: 2px solid  rgb(19, 227, 15);
     font-weight: bold;
+}
+/* hero-section */
+.browse_btn{
+    display: inline-block;
+    padding: 14px 15px 14px 15px;
+    background: rgb(19, 227, 15);
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.sell_btn{
+    display: inline-block;
+    background: grey;
+    text-decoration: none;
+    padding: 14px 30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.hero_text p{
+    font-size: 16px;
+    line-height: 1.3;
 }
