@@ -1,63 +1,241 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Browsebooks</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mate:ital@0;1&family=Pliant:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
-   <header>
-        <nav>
-            <div>
-                <h1><span style="color: rgb(25, 179, 25);">Reuse</span>MyBook</h1>
-                <ul type="none">
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="browsebooks.html">Browse Books</a></li>
-                    <li><a href="sellbook.html">Sell Books</a></li>
-                    <li><a href="requestbook.html">Request Book</a></li>
-                    <li><a href="Contactus.html">Contact Us</a></li>
-                    <li class="btn-login"><a href="login.html">Login</a></li>
-                </ul>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mate:ital@0;1&family=Pliant:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <h1><span style="color: rgb(25, 179, 25)">Reuse</span>MyBook</h1>
+          <ul type="none">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="browsebooks.html">Browse Books</a></li>
+            <li><a href="sellbook.html">Sell Books</a></li>
+            <li><a href="requestbook.html">Request Book</a></li>
+            <li><a href="Contactus.html">Contact Us</a></li>
+            <li class="btn-login"><a href="login.html">Login</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="category">
+      <div class="category-icon">
+        <img src="images/Category/allbooks_icon.png" />
+        <p>All</p>
+      </div>
+      <div class="category-icon">
+        <img src="images/Category/engineeringbookicon.jpeg" />
+        <p>Engineering</p>
+      </div>
+      <div class="category-icon">
+        <img src="images/Category/csbookicon.jpg" />
+        <p>Computer Science</p>
+      </div>
+      <div class="category-icon">
+        <img src="images/Category/medicalbookicon.jpg" />
+        <p>Medical</p>
+      </div>
+      <div class="category-icon">
+        <img src="images/Category/combookicon.jpg" />
+        <p>Commerce</p>
+      </div>
+      <div class="category-icon">
+        <img src="images/Category/scibookicon.jpg" />
+        <p>Science</p>
+      </div>
+      <div class="category-icon">
+        <img src="images/Category/schoolbooksicon.png" />
+        <p>School Books</p>
+      </div>
+      <div class="category-icon">
+        <img src="images/Category/commpetitativeicon.png" />
+        <p>Competitive Exams</p>
+      </div>
+    </div>
+    <section class="books_container">
+      <h2>Available Books</h2>
+      <div class="books">
+        <div class="card">
+          <div class="book-image">
+            <img src="images/Browsebooks/letusc.png" alt="Let Us C" />
+          </div>
+          <div class="book-content">
+            <span class="category">Computer Science</span>
+            <h3>Let Us C</h3>
+            <p class="author">Yashavant Kanetkar</p>
+            <div class="book-meta">
+              <span class="condition">⭐ Like New</span>
+              <span class="location">📍 Mumbai</span>
             </div>
-        </nav>
-   </header>
-   <div class="category">
-        <div class="category-icon">
-            <img src="images/Category/allbooks_icon.png">
-            <p>All</p>
-        </div> 
-        <div class="category-icon">
-            <img src="images/Category/engineeringbookicon.jpeg">
-            <p>Engineering</p>
+            <div class="price">₹199</div>
+            <p class="posted-time">Posted 2 days ago</p>
+            <button>View Details</button>
+          </div>
         </div>
-        <div class="category-icon">
-            <img src="images/Category/csbookicon.jpg">
-            <p>Computer Science</p>
+        <div class="card">
+          <div class="book-image">
+            <img src="images/Browsebooks/engineering_mechanics.png" alt="engineering_mechanics" />
+          </div>
+          <div class="book-content">
+            <span class="category">Computer Science</span>
+            <h3>Let Us C</h3>
+            <p class="author">Yashavant Kanetkar</p>
+            <div class="book-meta">
+              <span class="condition">⭐ Like New</span>
+              <span class="location">📍 Mumbai</span>
+            </div>
+            <div class="price">₹199</div>
+            <p class="posted-time">Posted 2 days ago</p>
+            <button>View Details</button>
+          </div>
         </div>
-        <div class="category-icon">
-            <img src="images/Category/medicalbookicon.jpg">
-            <p>Medical</p>
+        <div class="card">
+          <div class="book-image">
+            <img src="images/Browsebooks/datastructures_c.png" alt="datastructures_c" />
+          </div>
+          <div class="book-content">
+            <span class="category">Computer Science</span>
+            <h3>Let Us C</h3>
+            <p class="author">Yashavant Kanetkar</p>
+            <div class="book-meta">
+              <span class="condition">⭐ Like New</span>
+              <span class="location">📍 Mumbai</span>
+            </div>
+            <div class="price">₹199</div>
+            <p class="posted-time">Posted 2 days ago</p>
+            <button>View Details</button>
+          </div>
         </div>
-        <div class="category-icon">
-            <img src="images/Category/combookicon.jpg">
-            <p>Commerce</p>
+        <div class="card">
+          <div class="book-image">
+            <img src="images/Browsebooks/discrete_mathmatics.png" alt="discrete_mathmatics" />
+          </div>
+          <div class="book-content">
+            <span class="category">Computer Science</span>
+            <h3>Let Us C</h3>
+            <p class="author">Yashavant Kanetkar</p>
+            <div class="book-meta">
+              <span class="condition">⭐ Like New</span>
+              <span class="location">📍 Mumbai</span>
+            </div>
+            <div class="price">₹199</div>
+            <p class="posted-time">Posted 2 days ago</p>
+            <button>View Details</button>
+          </div>
         </div>
-        <div class="category-icon">
-            <img src="images/Category/scibookicon.jpg">
-            <p>Science</p>
+        <div class="card">
+          <div class="book-image">
+            <img src="images/Browsebooks/database_systems.png" alt="database_systems" />
+          </div>
+          <div class="book-content">
+            <span class="category">Computer Science</span>
+            <h3>Let Us C</h3>
+            <p class="author">Yashavant Kanetkar</p>
+            <div class="book-meta">
+              <span class="condition">⭐ Like New</span>
+              <span class="location">📍 Mumbai</span>
+            </div>
+            <div class="price">₹199</div>
+            <p class="posted-time">Posted 2 days ago</p>
+            <button>View Details</button>
+          </div>
         </div>
-        <div class="category-icon">
-            <img src="images/Category/schoolbooksicon.png">
-            <p>School Books</p>
+        <div class="card">
+          <div class="book-image">
+            <img src="images/Browsebooks/anatomy.png" alt="anatomy" />
+          </div>
+          <div class="book-content">
+            <span class="category">Computer Science</span>
+            <h3>Let Us C</h3>
+            <p class="author">Yashavant Kanetkar</p>
+            <div class="book-meta">
+              <span class="condition">⭐ Like New</span>
+              <span class="location">📍 Mumbai</span>
+            </div>
+            <div class="price">₹199</div>
+            <p class="posted-time">Posted 2 days ago</p>
+            <button>View Details</button>
+          </div>
         </div>
-        <div class="category-icon">
-            <img src="images/Category/commpetitativeicon.png">
-            <p>Competitive Exams</p>
+        <div class="card">
+          <div class="book-image">
+            <img src="images/Browsebooks/physiology.png" alt="physiology" />
+          </div>
+          <div class="book-content">
+            <span class="category">Computer Science</span>
+            <h3>Let Us C</h3>
+            <p class="author">Yashavant Kanetkar</p>
+            <div class="book-meta">
+              <span class="condition">⭐ Like New</span>
+              <span class="location">📍 Mumbai</span>
+            </div>
+            <div class="price">₹199</div>
+            <p class="posted-time">Posted 2 days ago</p>
+            <button>View Details</button>
+          </div>
         </div>
-   </div>
-</body>
+        <div class="card">
+          <div class="book-image">
+            <img src="images/Browsebooks/physiology.png" alt="Let Us C" />
+          </div>
+          <div class="book-content">
+            <span class="category">Computer Science</span>
+            <h3>Let Us C</h3>
+            <p class="author">Yashavant Kanetkar</p>
+            <div class="book-meta">
+              <span class="condition">⭐ Like New</span>
+              <span class="location">📍 Mumbai</span>
+            </div>
+            <div class="price">₹199</div>
+            <p class="posted-time">Posted 2 days ago</p>
+            <button>View Details</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="book-image">
+            <img src="images/Browsebooks/engineering_mechanics.png" alt="Let Us C" />
+          </div>
+          <div class="book-content">
+            <span class="category">Computer Science</span>
+            <h3>Let Us C</h3>
+            <p class="author">Yashavant Kanetkar</p>
+            <div class="book-meta">
+              <span class="condition">⭐ Like New</span>
+              <span class="location">📍 Mumbai</span>
+            </div>
+            <div class="price">₹199</div>
+            <p class="posted-time">Posted 2 days ago</p>
+            <button>View Details</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="book-image">
+            <img src="images/Browsebooks/datastructures_c.png" alt="Let Us C" />
+          </div>
+          <div class="book-content">
+            <span class="category">Computer Science</span>
+            <h3>Let Us C</h3>
+            <p class="author">Yashavant Kanetkar</p>
+            <div class="book-meta">
+              <span class="condition">⭐ Like New</span>
+              <span class="location">📍 Mumbai</span>
+            </div>
+            <div class="price">₹199</div>
+            <p class="posted-time">Posted 2 days ago</p>
+            <button>View Details</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

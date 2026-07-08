@@ -96,7 +96,7 @@ nav a.active{
     font-size: 40px;
 }
 
-/* Browse Books */
+/* ===Browse Books===*/
 .category{
     display: flex;
     align-items: center;
@@ -127,4 +127,30 @@ nav a.active{
 .category-icon img:hover{
     transform:scale(1.1);
     border: 2px solid rgb(19, 227, 15);
+}
+
+/* ---Books-section---*/
+.books_container{
+    margin-top: 20px;
+}
+.books_container h2{
+    margin: 10px 0px 10px 30px;
+    font-size: 32px;
+}
+.books{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:25px;
+    padding: 20px 0px;
+    place-items: center;
+    border-top: 2px solid #E5E7EB;
+}
+.book-image img{
+    width: 150px;
+    height: 80%;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
