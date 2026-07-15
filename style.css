@@ -281,4 +281,17 @@ form div{
     width: 100%;     
     z-index: 1000;   
 }
-/*  */
+
+/* Footer Part */
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    background: #000;
+    color: white;
+    gap: 30px;
+    padding: 20px 0 20px;
+}
+.footer-bottom{
+    display: flex;
+    
+}
