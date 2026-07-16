@@ -283,15 +283,41 @@ form div{
 }
 
 /* Footer Part */
-.footer-container{
-    display: flex;
-    justify-content: space-evenly;
+footer{
     background: #000;
     color: white;
-    gap: 30px;
-    padding: 20px 0 20px;
+    padding: 20px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-box ul{
+    list-style: none;
+}
+.footer-box a{
+    text-decoration: none;
+    color: #aaa;
+}
+.footer-box a:hover{
+    color: rgb(19, 227, 15);
+}
+.footer-box h2,h3{
+    color: #fff;
 }
 .footer-bottom{
     display: flex;
-    
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top:1px solid darkgray ;
+}
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.social-icons{
+    font-size: 28px;
 }
