@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sell Book</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -34,6 +34,31 @@
         </div>
       </nav>
     </header>
+    <section class="sellbook">
+      <div class="sellbook-container">
+        <h3>Sell Your Book</h3>
+        <form action="/submit">
+          <div class="form-input">
+            <label>Book Title *</label>
+            <input type="text" placeholder="Enter book title" required>
+          </div>
+          <div class="form-input">
+            <label>Author *</label>
+            <input type="text" placeholder="Enter author name" required>
+          </div>
+          <div class="form-input">
+            <label>Category *</label>
+            <select>
+              <option>Engineering</option>
+              <option>Computer Science</option>
+              <option>Commerce</option>
+              <option>Science</option>
+              <option></option>
+            </select>
+          </div>
+        </form>
+      </div>
+    </section>
     <footer>
       <div class="footer-container">
         <div class="footer-box">
