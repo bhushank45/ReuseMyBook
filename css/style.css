@@ -520,12 +520,13 @@ footer{
 /* sell book */
 .sellbook{
     min-height: 100vh;
-    padding-top: 60px;
+    padding: 60px;
     box-sizing: border-box;
     background-image: url("../images/auth_background.png");
     background-size:cover ;
     background-position: center;
     background-repeat: no-repeat;
+    gap:50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -535,7 +536,7 @@ footer{
     border-radius: 10px;
     text-align: left;
     margin-bottom: 50px;
-    background: #fff;
+    /* background: linear-gradient(135deg, #E9FCEB 0%, #D8F8D8 50%, #C6F5C6 100%); */
     width: 600px;
     box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.12);
 }
@@ -580,9 +581,63 @@ footer{
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
-    transition: 0.3s ease;
 }
 .form-button button:hover{
     background:#15803D;
-    transform:scale(1.1);
+}
+/* request books */
+.request-container{
+    width: 500px;
+    /* background: rgba(0, 0, 0, 0.1); */
+    /* background: linear-gradient(135deg, #E9FCEB 0%, #D8F8D8 50%, #C6F5C6 100%); */
+    box-shadow: 5px 15px 30px rgba(0, 0, 0, 0.18);
+    padding: 30px;
+    border-radius: 10px;
+}
+.req-header{
+    text-align: center;
+    margin-bottom: 20px;
+    color:#22c55e;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.request-card{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 5px;
+    gap: 10px;
+    border-top: 1px solid darkgray;
+}
+.category-badge{
+    display: inline-block;
+    background: #22c55e;
+    padding: 0 5px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 5px;
+    
+}
+.author{
+    font-style: italic;
+    margin: 5px 0
+}
+.meta h3{
+    color:#000;
+    margin-top: 5px;
+}
+.request-date{
+    color: rgb(51, 49, 49);
+    white-space: nowrap;
+}
+#sale-link{
+    text-align: center;
+}
+#sale-link a{
+    text-decoration: none;
+    color:green;
+}
+#sale-link a:hover{
+    color: blue;
+    text-decoration: underline;
 }
