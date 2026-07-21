@@ -10,9 +10,9 @@ nav div{
     align-items: center;
     padding: 10px;
     font-size: large;
-    background-color: #000;
+    background-color: #166534;
     gap: 30px;
-    box-shadow:0 2px 15px rgba(0,0,0,.08);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
 }
 nav ul{
     display: flex;
@@ -22,12 +22,13 @@ nav ul{
 }
 nav a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     color: rgba(242, 235, 235, 0.947);
     font-weight: bold;
+    transition: .3s;
 }
 nav a:hover{
-    color: rgb(19, 227, 15);
+    color: #39FF14;
 }   
 /* nav h1{
     color: #f4f4f4;
@@ -39,22 +40,25 @@ nav a:hover{
     padding: 5PX;
 }
 nav a.active{
-    color: rgb(19, 227, 15);
-    border-bottom: 2px solid  rgb(19, 227, 15);
+    color: #39FF14;
+    /* border-bottom: 2px solid  rgb(19, 227, 15); */
     font-weight: bold;
 }
 .btn-login{
     padding: 10px 20px;
-    background: rgb(19, 227, 15);
+    background: #34c61a;
     border-radius: 10px;    
 }
+.btn-login:hover{
+    background-color: rgb(0, 172, 0);
+}
 .btn-login a:hover{
-    color: grey;
+    color: #fff;
 }
 /* hero-section */
 .browse_btn{
     padding: 10px 20px;
-    background: rgb(19, 227, 15);
+    background: #34c61a;
     border-radius: 10px;
     color: white;
     font-weight: bold;
@@ -324,7 +328,7 @@ header{
 
 /* Footer Part */
 footer{
-    background: #000;
+    background: #166534;;
     color: white;
     padding: 20px;
 }
@@ -339,10 +343,11 @@ footer{
 }
 .footer-box a{
     text-decoration: none;
-    color: #aaa;
+    color: darkgrey;
+    transition: 0.3s;
 }
 .footer-box a:hover{
-    color: rgb(19, 227, 15);
+    color: #39FF14;
 }
 .footer-box h2,h3{
     color: #fff;
@@ -635,9 +640,9 @@ footer{
 }
 #sale-link a{
     text-decoration: none;
-    color:green;
+    color: #22c55e;
 }
 #sale-link a:hover{
-    color: blue;
+    color: #15803D;
     text-decoration: underline;
 }
