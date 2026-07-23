@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ReuseMyBook</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/1391116205.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mate:ital@0;1&family=Pliant:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -29,7 +30,90 @@
             </div>
         </nav>
    </header>
-    <h2>Cart Page</h2>
+   
+   <!-- Cart Section -->
+    <section class="cart-section">
+        <div class="cart-container">
+            <div class="left-cart">
+                
+                <div class="cart-header">
+                    <h2>My Cart <span>(3 items)</span></h2>
+                    <p>Review your selected books before checkout.</p>
+
+                    <button><i class="fa-regular fa-trash-can"></i>
+                        Clear Cart
+                    </button>
+                </div>
+            
+                <div class="cart-items">
+                    <!-- card 1 -->
+                    <div class="cart-card">
+                        <div class="cart-image">
+                            <img src="images/Browsebooks/engineering_mechanics.png" alt="engineering_mechanics">
+                        </div>
+                        <div class="cart-details">
+                            <h3 >Engineering Mechanics</h3>
+                            <p>~ R. S. Khurmi</p>
+                            <div class="book-meta">
+                                <span class="book-category">Engineering</span>
+                                <span class="book-condition">Used - Good</span>
+                            </div>
+                            <div class="seller-info">
+                                <p><b>Seller:</b> Raj Chaudhari</p>
+                                <span class="verified">
+                                    <i class="fa-solid fa-shield-halved"></i>
+                                    Verified
+                                </span>
+                            </div>
+                        </div>
+                        <div class="cart-actions">
+                            <h3>₹ 350</h3>
+                            <p>₹ 350</p>
+                            <span>33% off</span>
+                            <div class="quantity">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </div>
+                            <button><i class="fa-regular fa-trash-can"></i></i></button>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-summary">
+                <h2>Order Summary</h2>
+                <div class="summary-row">
+                    <p>Subtotal(3 items)</p>
+                    <span>₹898</span>
+                </div>
+                <div class="summary-row">
+                    <p>Shipping</p>
+                    <span>₹40</span>
+                </div>
+                <div class="summary-row">
+                    <p>Platform Fee</p>
+                    <span>₹45</span>
+                </div>
+                <div class="summary-row">
+                    <div class="total">
+                        <h3>Total</h3>
+                        <span>₹983</span>
+                    </div>
+                    <p>You save <span>₹497</span>on MRP</p>
+                </div>
+                <div class="summary-actions">
+                    <button>Proceed to Checkout</button>
+                    <button>Continue Shopping</button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
     <footer>
         <div class="footer-container">
             <div class="footer-box">
