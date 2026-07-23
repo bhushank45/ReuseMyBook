@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +9,14 @@
     <script src="https://kit.fontawesome.com/1391116205.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mate:ital@0;1&family=Pliant:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mate:ital@0;1&family=Pliant:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.io/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-   <header>
+    <header>
         <nav>
             <div>
                 <a href="index.html" class="logo">
@@ -29,22 +33,24 @@
                 </ul>
             </div>
         </nav>
-   </header>
-   
-   <!-- Cart Section -->
+    </header>
+
+    <!-- Cart Section -->
     <section class="cart-section">
         <div class="cart-container">
             <div class="left-cart">
-                
+
                 <div class="cart-header">
-                    <h2>My Cart <span>(3 items)</span></h2>
-                    <p>Review your selected books before checkout.</p>
+                    <div>
+                        <h2>My Cart <span>(3 items)</span></h2>
+                        <p>Review your selected books before checkout.</p>
+                    </div>
 
                     <button><i class="fa-regular fa-trash-can"></i>
                         Clear Cart
                     </button>
                 </div>
-            
+
                 <div class="cart-items">
                     <!-- card 1 -->
                     <div class="cart-card">
@@ -52,31 +58,109 @@
                             <img src="images/Browsebooks/engineering_mechanics.png" alt="engineering_mechanics">
                         </div>
                         <div class="cart-details">
-                            <h3 >Engineering Mechanics</h3>
-                            <p>~ R. S. Khurmi</p>
+                            <h3>Engineering Mechanics</h3>
+                            <p>By R. S. Khurmi</p>
                             <div class="book-meta">
                                 <span class="book-category">Engineering</span>
-                                <span class="book-condition">Used - Good</span>
+                                <span class="book-condition">· Used - Good</span>
                             </div>
                             <div class="seller-info">
                                 <p><b>Seller:</b> Raj Chaudhari</p>
                                 <span class="verified">
                                     <i class="fa-solid fa-shield-halved"></i>
-                                    Verified
+                                    Verified Seller
                                 </span>
                             </div>
                         </div>
                         <div class="cart-actions">
-                            <h3>₹ 350</h3>
-                            <p>₹ 350</p>
-                            <span>33% off</span>
-                            <div class="quantity">
-                                <button>-</button>
-                                <span>1</span>
-                                <button>+</button>
+                            <span>₹ 250</span>
+                            <div class="discount">
+                                <p>₹ 320</p>
+                                <span>20% off</span>
                             </div>
-                            <button><i class="fa-regular fa-trash-can"></i></i></button>
-                        </div>   
+                            <div class="quantity-actions">
+                                <div class="quantity">
+                                    <button>-</button>
+                                    <span>1</span>
+                                    <button>+</button>
+                                </div>
+                                <button class="remove-btn"><i class="fa-regular fa-trash-can"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 2 -->
+                    <div class="cart-card">
+                        <div class="cart-image">
+                            <img src="images/Browsebooks/letusc.png" alt="Let Us C">
+                        </div>
+                        <div class="cart-details">
+                            <h3>Let Us C</h3>
+                            <p>By S. Chand</p>
+                            <div class="book-meta">
+                                <span class="book-category">Computer Science</span>
+                                <span class="book-condition">· Used - Very Good</span>
+                            </div>
+                            <div class="seller-info">
+                                <p><b>Seller: </b>Soham Pawar</p>
+                                <span class="verified">
+                                    <i class="fa-solid fa-shield-halved"></i>
+                                    Verified Seller
+                                </span>
+                            </div>
+                        </div>
+                        <div class="cart-actions">
+                            <span>₹ 160</span>
+                            <div class="discount">
+                                <p>₹ 199</p>
+                                <span>18% off</span>
+                            </div>
+                            <div class="quantity-actions">
+                                <div class="quantity">
+                                    <button>-</button>
+                                    <span>1</span>
+                                    <button>+</button>
+                                </div>
+                                <button class="remove-btn"><i class="fa-regular fa-trash-can"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 3 -->
+                    <div class="cart-card">
+                        <div class="cart-image">
+                            <img src="images/Browsebooks/anatomy.png" alt="Anatomy_Book">
+                        </div>
+                        <div class="cart-details">
+                            <h3>Anatomy</h3>
+                            <p>By S. Chand</p>
+                            <div class="book-meta">
+                                <span class="book-category">Computer Science</span>
+                                <span class="book-condition">· Used - Like New</span>
+                            </div>
+                            <div class="seller-info">
+                                <p><b>Seller: </b>Harsh Bhoir</p>
+                                <span class="verified">
+                                    <i class="fa-solid fa-shield-halved"></i>
+                                    Verified Seller
+                                </span>
+                            </div>
+                        </div>
+                        <div class="cart-actions">
+                            <span>₹ 499</span>
+                            <div class="discount">
+                                <p>₹ 680</p>
+                                <span>26% off</span>
+                            </div>
+                            <div class="quantity-actions">
+                                <div class="quantity">
+                                    <button>-</button>
+                                    <span>1</span>
+                                    <button>+</button>
+                                </div>
+                                <button class="remove-btn"><i class="fa-regular fa-trash-can"></i></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -85,7 +169,7 @@
                 <h2>Order Summary</h2>
                 <div class="summary-row">
                     <p>Subtotal(3 items)</p>
-                    <span>₹898</span>
+                    <span>₹909</span>
                 </div>
                 <div class="summary-row">
                     <p>Shipping</p>
@@ -98,16 +182,19 @@
                 <div class="summary-row">
                     <div class="total">
                         <h3>Total</h3>
-                        <span>₹983</span>
+                        <span>₹994</span>
                     </div>
-                    <p>You save <span>₹497</span>on MRP</p>
+                    <p>You save <span>₹290 </span>on MRP</p>
                 </div>
                 <div class="summary-actions">
-                    <button>Proceed to Checkout</button>
-                    <button>Continue Shopping</button>
+                    <button>
+                        <i class="fa-solid fa-lock"></i>Proceed to Checkout
+                    </button>
+                    <a href="browsebooks.html" class="continue-btn">
+                        <i class="fa-solid fa-arrow-left"></i>Continue Shopping
+                    </a>
                 </div>
             </div>
-
         </div>
 
     </section>
@@ -117,9 +204,11 @@
     <footer>
         <div class="footer-container">
             <div class="footer-box">
-                <h2><span style="color: rgb(19, 227, 15);">Reuse</span>My<span style="color: rgb(19, 227, 15)">Book</span>
+                <h2><span style="color: rgb(19, 227, 15);">Reuse</span>My<span
+                        style="color: rgb(19, 227, 15)">Book</span>
                 </h2>
-                <p>India's leading platform for buying and selling used books. <br /> with book lovers across the country
+                <p>India's leading platform for buying and selling used books. <br /> with book lovers across the
+                    country
                     and give your <br />books a new life.</p>
                 <div class="social-icons">
                     <a href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -160,4 +249,5 @@
         </div>
     </footer>
 </body>
+
 </html>
