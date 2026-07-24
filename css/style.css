@@ -1058,24 +1058,24 @@ h3 {
     display: flex;
     gap: 20px;
   }
-}
-/* browse-books */
-/* Categories */
-.category{
+  /* browse-books */
+  /* Categories */
+  .category {
     flex-wrap: wrap;
     gap: 15px;
-}
+  }
 
-/* Books */
-.books{
-    grid-template-columns: repeat(2,1fr);
+  /* Books */
+  .books {
+    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
-}
+  }
 
-.card{
+  .card {
     width: 100%;
-}
-/* login and signup page */
-.auth-box{
-  padding: 20px;
+  }
+  /* login and signup page */
+  .auth-box {
+    padding: 20px;
+  }
 }
