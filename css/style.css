@@ -154,7 +154,7 @@ nav a.active {
 .search-box button:hover {
   background: #16a34a;
 }
-/* ===Browse Books===*/
+/* ---Browse Books---*/
 .category {
   display: flex;
   align-items: center;
@@ -1058,4 +1058,24 @@ h3 {
     display: flex;
     gap: 20px;
   }
+}
+/* browse-books */
+/* Categories */
+.category{
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* Books */
+.books{
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+
+.card{
+    width: 100%;
+}
+/* login and signup page */
+.auth-box{
+  padding: 20px;
 }
