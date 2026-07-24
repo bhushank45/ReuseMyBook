@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Mate", serif;
 }
+/* navbar */
 nav div {
   display: flex;
   justify-content: space-between;
@@ -26,6 +27,12 @@ nav a {
   color: rgba(242, 235, 235, 0.947);
   font-weight: bold;
   transition: 0.3s;
+}
+.menu-toggle{
+    display:none;
+    font-size:32px;
+    color:#fff;
+    cursor:pointer;
 }
 nav a:hover {
   color: #39ff14;
@@ -327,7 +334,16 @@ header {
   width: 100%;
   z-index: 1000;
 }
-
+.eye{
+  cursor: pointer;
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.eye:hover{
+  color: #16a34a;
+}
 /* Footer Part */
 footer {
   background: #111827;
@@ -657,7 +673,7 @@ h3 {
 .cart-container {
   display: flex;
   gap: 30px;
-  /* align-items: flex-start; */
+  align-items: flex-start;
   margin: 0px 40px 40px;
 }
 .left-cart {
@@ -810,6 +826,8 @@ h3 {
 .cart-summary {
   flex: 3;
   background: #ffffff;
+  position: sticky;
+  top: 200px;
   border: 1px solid #e5e7eb;
   padding: 20px;
   border-radius: 10px;

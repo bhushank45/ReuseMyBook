@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/1391116205.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mate:ital@0;1&family=Pliant:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -38,16 +39,21 @@
                     </label>
                     <input type="email" id="email-input" name="email" placeholder="Enter Email" required/>
                 </div>
-                <div>
+                <div style="position: relative;">
                     <label for="password-input">
                         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M240-80q-33 0-56.5-23.5T160-160v-400q0-33 23.5-56.5T240-640h40v-80q0-83 58.5-141.5T480-920q83 0 141.5 58.5T680-720v80h40q33 0 56.5 23.5T800-560v400q0 33-23.5 56.5T720-80H240Zm296.5-223.5Q560-327 560-360t-23.5-56.5Q513-440 480-440t-56.5 23.5Q400-393 400-360t23.5 56.5Q447-280 480-280t56.5-23.5ZM360-640h240v-80q0-50-35-85t-85-35q-50 0-85 35t-35 85v80Z"/></svg>
                     </label>
                     <input type="password" id="password-input" name="password" placeholder="Enter Password" required/>
+                    <span class="eye" onclick="togglePassword()">
+                        <i class="fa-regular fa-eye"></i>
+                    </span>
                 </div>
-                <button type="submit">Login</button>
+                <p id="error" style="color: red; font-weight:bold;"></p>
+                <button type="button" onclick="login()">Login</button>
             </form>
             <p>Don't have an account? <a href="signup.html">Signup</a></p>
         </div>
    </section>
+   <script src="js/script.js"></script>
 </body>
 </html>
